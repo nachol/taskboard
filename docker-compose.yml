@@ -1,0 +1,9 @@
+version: "3"
+services:
+    site:
+        build: .
+        container_name: TaskBoard-docker
+        ports:
+            - "80:80"
+        expose:
+            - "80"
